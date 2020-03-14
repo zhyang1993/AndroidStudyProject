@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- reference:某一个资源id，例如res下的资源
+     fraction百分数
+              -->
+<resources>
+    <declare-styleable name="mytextview">
+       <!-- <attr name="text" format="string"/>
+        <attr name="background" format="reference|color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="layout_width" format="dimension"/>
+        <attr name="layout_height" format="dimension"/>
+        <attr name = "focusable" format = "boolean" />
+        <attr name = "framesCount" format="integer" />
+        <attr name="gravity">
+            <flag name="top" value="0x01" />
+            <flag name="bottom" value="0x02" />
+            <flag name="left" value="0x04" />
+            <flag name="right" value="0x08" />
+            <flag name="center_vertical" value="0x16" />
+        </attr>-->
+    </declare-styleable>
+</resources>

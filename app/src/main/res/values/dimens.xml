@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="scoretextsize">80sp</dimen>
+    <dimen name="team">24sp</dimen>
+</resources>

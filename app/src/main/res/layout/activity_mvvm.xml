@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.example.myapplication.mvvm.MvvmViewModel" />
+        <variable
+            name="activity"
+            type="com.example.myapplication.mvvm.MvvmActivity" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/edit_query"
+            android:text="@={viewmodel.userInput}"
+            android:hint="请输入用户名" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/tv_showinfo"
+            android:text="@={viewmodel.result}"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取账号信息"
+            android:id="@+id/btn_getinfo"
+            android:layout_gravity="center_horizontal"
+            android:onClick="@{viewmodel::getData}"/>
+    </LinearLayout>
+</layout>

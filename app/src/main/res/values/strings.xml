@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">学习Android</string>
+    <string name="app_version">1.1.0</string>
+    <string name="login_username_hint">请输入用户名</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_btn_text">登录</string>
+    <string name="login_username">请输入用户名</string>
+    <string name="login_icon">login_icon</string>
+    <string name="team_a">TeamA</string>
+    <string name="team_b">TeamB</string>
+    <string name="button">+1</string>
+    <string name="button2">+2</string>
+    <string name="button3">+3</string>
+    <string name="scoretext">120</string>
+    <string name="score_reset">reset</string>
+    <string name="score_before">before</string>
+    <string name="scoreA">120</string>
+    <string name="scoreB">98</string>
+    <string name="insert">INSERT</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="deleteall">DELETEALL</string>
+    <string name="word_id">1</string>
+    <string name="word_english">english</string>
+    <string name="word_chinese">chinese</string>
+    <string name="switchbtn">开关</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_button">Button</string>
+    <string name="home">home</string>
+    <string name="detail">Detail</string>
+    <string name="detail_button">Button</string>
+    <string name="a_activity">A_Activity</string>
+    <string name="b_activity">B_Activity</string>
+    <string name="b">跳转到B</string>
+    <string name="start_service">开启服务</string>
+    <string name="stop_service">停止服务</string>
+</resources>
